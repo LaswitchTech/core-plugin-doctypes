@@ -1,0 +1,189 @@
+{
+    "0": {
+        "Field": "id",
+        "Type": "bigint(20)",
+        "Null": "NO",
+        "Key": "PRI",
+        "Default": null,
+        "Extra": "auto_increment"
+    },
+    "1": {
+        "Field": "created",
+        "Type": "datetime",
+        "Null": "NO",
+        "Key": "",
+        "Default": "CURRENT_TIMESTAMP",
+        "Extra": ""
+    },
+    "2": {
+        "Field": "modified",
+        "Type": "datetime",
+        "Null": "NO",
+        "Key": "",
+        "Default": "CURRENT_TIMESTAMP",
+        "Extra": "on update CURRENT_TIMESTAMP"
+    },
+    "3": {
+        "Field": "owner",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "4": {
+        "Field": "name",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "5": {
+        "Field": "filename",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "%name%.pdf",
+        "Extra": ""
+    },
+    "6": {
+        "Field": "title",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "7": {
+        "Field": "subject",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "8": {
+        "Field": "keywords",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "9": {
+        "Field": "template",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "10": {
+        "Field": "locale",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "en-ca",
+        "Extra": ""
+    },
+    "11": {
+        "Field": "locked",
+        "Type": "json",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "12": {
+        "Field": "mode",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "utf-8",
+        "Extra": ""
+    },
+    "13": {
+        "Field": "format",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "Letter",
+        "Extra": ""
+    },
+    "14": {
+        "Field": "orientation",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "P",
+        "Extra": ""
+    },
+    "15": {
+        "Field": "hasLetterhead",
+        "Type": "int(1)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "0",
+        "Extra": ""
+    },
+    "16": {
+        "Field": "letterhead",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "17": {
+        "Field": "signatures",
+        "Type": "json",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "18": {
+        "Field": "permissions",
+        "Type": "json",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "19": {
+        "Field": "encryption",
+        "Type": "int(3)",
+        "Null": "YES",
+        "Key": "",
+        "Default": "128",
+        "Extra": ""
+    },
+    "20": {
+        "Field": "password",
+        "Type": "varchar(255)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "21": {
+        "Field": "organization",
+        "Type": "bigint(20)",
+        "Null": "YES",
+        "Key": "",
+        "Default": null,
+        "Extra": ""
+    },
+    "22": {
+        "Field": "isArchived",
+        "Type": "int(1)",
+        "Null": "NO",
+        "Key": "",
+        "Default": "0",
+        "Extra": ""
+    },
+    "engine": "InnoDB",
+    "charset": "utf8mb4",
+    "collation": "general_ci"
+}
